@@ -12,7 +12,6 @@ public class PlayerMovementController : MonoBehaviour, IDirection
     private void Awake()
     {
         movement = GetComponent<MovementComponent>();
-        movement.direction = this;
     }
 
     public Vector3 GetDirection()
