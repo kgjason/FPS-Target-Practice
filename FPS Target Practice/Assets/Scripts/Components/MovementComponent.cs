@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class MovementComponent : MonoBehaviour 
 {
-    [SerializeField]
-    private int speed;
+    public int speed;
     public IDirection direction;
     private void Awake()
     {
